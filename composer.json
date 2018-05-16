@@ -1,16 +1,18 @@
 {
-    "name": "mycrm/mycrm-specs",
-    "description": "acceptance tests",
-    "require": {
-        "behat/mink-extension": "^2.2",
-        "behat/mink-goutte-driver": "^1.2",
-        "behat/mink-selenium2-driver": "^1.3"
-    },
-    "authors": [
-        {
-            "name": "David Funaro",
-            "email": "david@mycrm.com"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "rhormens/behat-selenium-docker",
+  "minimum-stability": "stable",
+  "require": {
+    "behat/behat": "3.1.0",
+    "behat/mink": "1.7.1",
+    "behat/mink-extension": "2.2",
+    "behat/mink-goutte-driver": "1.2.1",
+    "behat/mink-selenium2-driver": "1.3.1",
+    "drupal/drupal-extension": "3.2.2",
+    "guzzlehttp/guzzle": "6.2.1",
+    "phpunit/phpunit": "5.5.5",
+    "fzaninotto/faker": "1.6.0",
+    "bossa/phpspec2-expect": "2.0.0",
+    "vanare/behat-cucumber-json-formatter": "1.1.1"
+    "ciandt/behat-placeholders-extension" : "1.3.0"
+  }
 }
