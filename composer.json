@@ -13,6 +13,6 @@
     "fzaninotto/faker": "1.6.0",
     "bossa/phpspec2-expect": "2.0.0",
     "vanare/behat-cucumber-json-formatter": "1.1.1"
-    "ciandt/behat-placeholders-extension" : "1.3.0"
+    "ciandt/behat-placeholders-extension": "1.3.0"
   }
 }
